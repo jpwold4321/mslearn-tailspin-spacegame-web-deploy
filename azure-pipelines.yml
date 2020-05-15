@@ -4,7 +4,7 @@ variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '3.1.100'
-  releaseBranchName: 'release'
+  releaseBranchName: 'release-pipeline'
 #-----Build Stage ---
 stages:
     - stage: 'Build'
